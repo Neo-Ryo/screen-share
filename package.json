@@ -5,7 +5,8 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon -L index.ts"
+    "start": "nodemon -L index.ts",
+    "exec-file": "nodemon"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.5",
@@ -18,10 +19,12 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
+    "@types/screenshot-desktop": "^1.12.3",
     "body-parser": "^1.20.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "screenshot-desktop": "^1.15.0"
   }
 }

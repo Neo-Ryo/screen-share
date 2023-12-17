@@ -1,22 +1,5 @@
-# Template of a typescript nodejs server
+# Screenshot node js
 
-### Installed packages
+- If running on linux needs to have `imagemagick` binaries installed ==> `apt-get install imagemagick`
 
-> dependencies
-
--   axios
--   body-parser
--   cors
--   dotenv
--   express
--   morgan
-
-> dev dependencies
-
--   nodemon
--   ts-node
--   typescript
-
-_axios installed as well_
-
--   Run `yarn` or `npm install` to install node modules and then `yarn start` or `npm start` et voila!
+- Run `pnpm/npm/yarn install` to install node modules and then `pnpm/npm/yarn start` et voila!
